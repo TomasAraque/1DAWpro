@@ -3,16 +3,17 @@ import java.util.Scanner;
 
 public class DistinctValues{
 
-public static void main(String[3] args)	
+public static void main(String[] args)	
 	{
 	int num1,num2,num3;
+	int num1 = Integer.parseInt(args[0]);	
+	int num2 = Integer.parseInt(args[1]);
+	int num3 = Integer.parseInt(args[2]);
 	int cuenta=0;
-	Scanner numescaneado=new Scanner(System.in);
+	
 
-	int numero=int.parseint(numescaneado);
-	num1 = numescaneado.nextInt();	
-	num2 = numescaneado.nextInt();
-	num3 = numescaneado.nextInt();
+	
+	
 	
 	if (num1!=num2){cuenta++;}
 	else{}
