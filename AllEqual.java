@@ -4,19 +4,14 @@ import java.util.Scanner;
 public class AllEqual{
 
 
-	public static void main(String[3] args)
+	public static void main(String[] args)
 		{
-		int num1,num2,num3;
-		bool comparator=true;
-		Scanner numescaneado = new Scanner(System.in);
-		int numero=int.parseint(numescaneado);
-		System.out.println("introduce los 3 numeros: \n");
-		num1 = numescaneado.nextInt();	
-		System.out.println("\n");
-		num2 = numescaneado.nextInt();
-		System.out.println("\n");
-		num3 = numescaneado.nextInt();
 		
+		
+		int num1=Integer.parseint(args[0]);
+		int num2=Integer.parseint(args[1]);
+		int num3=Integer.parseint(args[2]);
+		boolean comparator=true;
 		if (num1!=num2 ||num2!=num3||num1!=num3){
 		
 		comparator = false;
